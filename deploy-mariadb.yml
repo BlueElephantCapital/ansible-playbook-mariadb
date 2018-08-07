@@ -1,5 +1,5 @@
 # file: mariadb.yml
-- hosts: databases
+- hosts: localhost
   user: root
   tasks:
   - name: Install MariaDB repository
